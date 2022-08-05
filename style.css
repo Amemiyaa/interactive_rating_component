@@ -32,6 +32,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 /* CARD */
 
 #card {
@@ -46,15 +47,29 @@ body {
   justify-content: space-between;
 }
 
+/* Icon Star */
+#icon_star {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-blue);
+}
+
+
 #card h1 {
   font-size: 1.8rem;
 }
 
 #card p {
   font-size: 0.9rem;
-  color: var(--medium-grey);
+  color: var(--light-grey);
 }
 
+
+/* RATING BUTTONS */
 #card .rating {
   width: 100%;
   display: flex;
@@ -62,25 +77,26 @@ body {
 }
 
 #card .rating button {
-  width: 2rem;
-  height: 2rem;
-  padding: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
   border: none;
   color: var(--medium-grey);
-  background-color: var(--very-dark-blue);
+  background-color: var(--dark-blue);
+  font-size: 0.9rem;
   border-radius: 50rem;
 }
 
-/* Icon Star */
-#icon_star {
-  width: 2rem;
-  height: 2rem;
-  padding: 20px;
-  border-radius: 8rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--very-dark-blue);
+/* SUBMIT BUTTON */
+
+#card button {
+  width: 100%;
+  background-color: var(--orange);
+  color: var(--white);
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 /* THANK YOU STATE */
